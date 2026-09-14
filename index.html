@@ -143,7 +143,7 @@
             <div class="bg-slate-900/80 backdrop-blur-md text-white px-4 py-2 rounded-xl text-xs md:text-sm font-bold shadow-md border border-white/20">
                 <i class="fa-solid fa-calendar-days mr-1.5 text-sky-400"></i>9/25 (五) — 9/28 (一)
             </div>
-            <a href="https://docs.google.com/document/d/11nRJrxEKSeUv3SHAljfDpdLq2sFGMyR0XGfzX8Hj-pE/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-white/20 hover:bg-white/30 backdrop-blur-md px-4 py-2 rounded-xl text-xs md:text-sm font-bold text-white border border-white/30 transition-transform shadow-md hover:-translate-y-0.5">
+            <a href="https://docs.google.com/document/d/1FbLwZTz_HuDgSPjbFc2_OMl7NvGPbEHMkAh1YcdF__c/edit?tab=t.0#heading=h.wta5rq100toe" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-white/20 hover:bg-white/30 backdrop-blur-md px-4 py-2 rounded-xl text-xs md:text-sm font-bold text-white border border-white/30 transition-transform shadow-md hover:-translate-y-0.5">
                 <i class="fa-solid fa-file-lines text-sky-300"></i> 文字版行程表
             </a>
             <a href="https://www.google.com/maps/d/edit?mid=1dQd_1LbhgPMOJI8pydYE5AMoD3okyq0&usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-emerald-600/90 hover:bg-emerald-500 backdrop-blur-md px-4 py-2 rounded-xl text-xs md:text-sm font-bold text-white border border-emerald-400/50 transition-transform shadow-md hover:-translate-y-0.5">
@@ -164,15 +164,15 @@
                 <div class="text-[10px] opacity-75">9/25 (五)</div>
                 <div class="text-sm font-black">Day 1｜抵達與探索</div>
             </button>
-            <button onclick="showDay(2)" id="btn-day2" class="day-btn px-5 py-2 rounded-xl font-bold text-gray-700 bg-gray-100/90 border border-gray-200">
+            <button onclick="showDay(2)" id="btn-day2" class="day-btn active px-5 py-2 rounded-xl font-bold text-gray-700 bg-gray-100/90 border border-gray-200">
                 <div class="text-[10px] opacity-75">9/26 (六)</div>
-                <div class="text-sm font-black">Day 2｜海豚體驗</div>
+                <div class="text-sm font-black">Day 2｜海豚與採買</div>
             </button>
             <button onclick="showDay(3)" id="btn-day3" class="day-btn px-5 py-2 rounded-xl font-bold text-gray-700 bg-gray-100/90 border border-gray-200">
                 <div class="text-[10px] opacity-75">9/27 (日)</div>
                 <div class="text-sm font-black">Day 3｜水族館與燒肉</div>
             </button>
-            <button onclick="showDay(4)" id="btn-day4" class="day-btn active px-5 py-2 rounded-xl font-bold text-gray-700 bg-gray-100/90 border border-gray-200">
+            <button onclick="showDay(4)" id="btn-day4" class="day-btn px-5 py-2 rounded-xl font-bold text-gray-700 bg-gray-100/90 border border-gray-200">
                 <div class="text-[10px] opacity-75">9/28 (一)</div>
                 <div class="text-sm font-black">Day 4｜早鳥與撤退</div>
             </button>
@@ -195,7 +195,7 @@
             <!-- 10:45-12:35 機場抵達與接駁 -->
             <div class="relative mb-8 pl-6">
                 <div class="timeline-node bg-cyan-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                <div class="glass-card rounded-2xl overflow-hidden">
                     <div class="h-28 sm:h-36 bg-gray-200 relative img-gradient">
                         <img src="https://lh3.googleusercontent.com/d/1ISqkOEy_jxTrJnQO_r615H4wGxqPqS80" class="w-full h-full object-cover" alt="那霸機場" onerror="this.src='https://placehold.co/800x400/0284c7/ffffff?text=那霸機場'">
                     </div>
@@ -214,8 +214,8 @@
                         
                         <div class="accordion-content">
                             <div class="accordion-inner">
-                                <div class="pt-3 pb-1">
-                                    <ul class="text-sm text-gray-600 space-y-3 leading-relaxed">
+                                <div class="pt-2">
+                                    <ul class="text-sm text-gray-600 space-y-2 leading-relaxed">
                                         <li class="flex items-start"><i class="fa-solid fa-check text-cyan-500 mt-1 mr-2 shrink-0"></i>1. 華航 CI120 抵達，出關提領行李、如廁。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-person-walking text-cyan-500 mt-1 mr-2 shrink-0"></i>2. 🚶 <strong>【國際線抵達 → 步行至國內線接駁區 10-A (R-10) → OTS】：</strong>全員依此動線搭乘接駁車。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-bus text-cyan-500 mt-1 mr-2 shrink-0"></i>3. 第一班接駁為目標，12:35 前完成 OTS 報到流程即可。</li>
@@ -262,7 +262,7 @@
                                     <ul class="text-sm text-gray-600 space-y-3.5 leading-relaxed">
                                         <li class="flex items-start"><i class="fa-solid fa-check text-cyan-500 mt-1 mr-2 shrink-0"></i>1. 2 位駕駛辦理手續並確認車況、汽座。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-suitcase text-cyan-500 mt-1 mr-2 shrink-0"></i>2. 其他人處理行李，確認雙車插妥 ETC 卡。</li>
-                                        <li class="flex items-start bg-yellow-50 p-2.5 rounded-lg border border-yellow-200"><i class="fa-solid fa-clipboard-list text-amber-600 mt-0.5 mr-2 shrink-0"></i><strong class="text-amber-800">3. 💡 車輛離場前30秒檢查：</strong>兩車油量/電量、汽座固定、ETC 卡插入、導航目的地設定、充電線/手機固定、行李箱完全關閉。</li>
+                                        <li class="flex items-start bg-yellow-50 p-2.5 rounded-lg border border-yellow-200"><i class="fa-solid fa-lightbulb text-amber-500 mt-0.5 mr-2 shrink-0"></i><strong class="text-amber-800">3. 💡 車輛離場前30秒檢查：</strong>兩車油量/電量、汽座固定、ETC 卡插入、導航目的地設定、充電線/手機固定、行李箱完全關閉。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-clock text-red-500 mt-1 mr-2 shrink-0"></i><strong class="text-red-600">4. 🔴 14:10：正常狀態下目標準時發車。</strong></li>
                                         <li class="flex items-start bg-red-50 p-2.5 rounded-lg border border-red-100"><i class="fa-solid fa-ban text-red-600 mt-0.5 mr-2 shrink-0"></i><strong class="text-red-700">5. 🔴 14:15：若仍未完成取車，立即啟動精簡版</strong>（不再停 Lawson，直接前往沖繩世界，水與簡單點心由非駕駛成員處理，駕駛專心開車）。</li>
                                     </ul>
@@ -282,7 +282,7 @@
             <!-- 14:10-15:05 車程 -->
             <div class="relative mb-8 pl-6">
                 <div class="timeline-node bg-cyan-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                <div class="glass-card rounded-2xl overflow-hidden">
                     <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
                         <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
                             <i class="fa-solid fa-chevron-down"></i>
@@ -336,7 +336,7 @@
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-2">
-                                    <p class="text-sm text-gray-600 leading-relaxed">抵達大型停車場。大人購票、全員強制如廁。<strong class="text-red-600 font-bold block mt-1">🔴 15:25 目標刷票入園（⚠️ 16:00 官方最後入園受理為硬指標）。</strong></p>
+                                    <p class="text-sm text-gray-600 leading-relaxed">抵達大型停車場。大人購票、全員強制如廁。<strong class="text-red-600 font-bold block mt-1">🔴 15:25 目標刷票入洞（⚠️ 16:00 官方最後入園受理為硬指標）。</strong></p>
                                 </div>
                             </div>
                         </div>
@@ -350,10 +350,10 @@
                 </div>
             </div>
 
-            <!-- 15:25-16:15/16:20 玉泉洞漫步 -->
+            <!-- 15:25-16:25 玉泉洞漫步 -->
             <div class="relative mb-8 pl-6">
                 <div class="timeline-node bg-cyan-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                <div class="glass-card rounded-2xl overflow-hidden">
                     <div class="h-28 sm:h-36 bg-gray-200 relative img-gradient">
                         <img src="https://lh3.googleusercontent.com/d/1MKcK4Q5273NnKgZ1XMcPWt-55JKk8EZW" class="w-full h-full object-cover" alt="玉泉洞" onerror="this.src='https://placehold.co/800x400/0284c7/ffffff?text=玉泉洞'">
                     </div>
@@ -390,7 +390,7 @@
                 </div>
             </div>
 
-            <!-- 16:15/16:20-17:20 挖珍珠與撤退 -->
+            <!-- 16:25-17:20 挖珍珠與撤退 -->
             <div class="relative mb-8 pl-6">
                 <div class="timeline-node bg-red-500"></div>
                 <div class="glass-card rounded-2xl overflow-hidden border-l-4 border-l-red-500">
@@ -417,7 +417,7 @@
                                         <li class="flex items-start"><i class="fa-solid fa-gem text-cyan-500 mt-1 mr-2 shrink-0"></i>1. 出洞後立即前往真珠體驗。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-clock text-red-500 mt-1 mr-2 shrink-0"></i><strong class="text-red-700">2. 🔴 16:30 前完成珍珠體驗報到受理。</strong></li>
                                         <li class="flex items-start"><i class="fa-solid fa-scale-balanced text-amber-500 mt-1 mr-2 shrink-0"></i><strong class="text-amber-700">3. 🟡 加工成飾品為附加項目，體驗完成後若現場立即可處理且不影響 17:10 集合再考慮，否則直接帶走原珠。</strong></li>
-                                        <li class="flex items-start"><i class="fa-solid fa-person-walking-arrow-right text-amber-500 mt-1 mr-2 shrink-0"></i><strong class="text-amber-700">4. 🟡 16:55：結束挖珍珠／離開景點區（依實際受理時間彈性調整）。</strong></li>
+                                        <li class="flex items-start"><i class="fa-solid fa-person-walking-arrow-right text-amber-500 mt-1 mr-2 shrink-0"></i><strong class="text-amber-700">4. 🟡 16:55：</strong>結束挖珍珠／離開景點區（依實際受理時間彈性調整）。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-boxes-packing text-gray-400 mt-1 mr-2 shrink-0"></i>5. 🟡 17:05～17:10：回停車場、確認全員與行李。</li>
                                         <li class="flex items-start bg-red-50 p-2.5 rounded-lg border border-red-100 mt-2"><i class="fa-solid fa-car-side text-red-600 mt-0.5 mr-2 shrink-0"></i><strong class="text-red-700 font-bold">6. 🔴 17:10～17:20：最晚駛離沖繩世界（17:20 最終離開）。</strong></li>
                                     </ul>
@@ -481,7 +481,7 @@
             <!-- 19:30-20:00 飯店 Check-in -->
             <div class="relative mb-8 pl-6">
                 <div class="timeline-node bg-cyan-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                <div class="glass-card rounded-2xl overflow-hidden">
                     <div class="h-28 sm:h-36 bg-gray-200 relative img-gradient">
                         <img src="https://lh3.googleusercontent.com/d/1RqdQ9FUtEJcGNojkR09YeW5M7cjzsO3x" class="w-full h-full object-cover" alt="名護海灘" onerror="this.src='https://placehold.co/800x400/0284c7/ffffff?text=名護櫻之家飯店'">
                     </div>
@@ -502,8 +502,8 @@
                             <div class="accordion-inner">
                                 <div class="pt-3 pb-1">
                                     <ul class="text-sm text-gray-600 space-y-3.5 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-id-card text-cyan-500 mt-1 mr-2 shrink-0"></i>1. 各房代表持隨身護照辦理入住手續，放置行李。</li>
-                                        <li class="flex items-start bg-amber-50 p-2.5 rounded-lg border border-amber-100"><i class="fa-solid fa-car-on text-amber-600 mt-0.5 mr-2 shrink-0"></i><div><strong class="text-amber-800 font-bold">2. 🚗 【極重要任務】：</strong>司機於今晚預先將 2 號車的 1 張兒童座椅移至 1 號車並完成安裝固定。安裝後請實際開門確認 3 張座椅的配置位置、成人進出動線，以及第二／第三排安全帶是否能正常扣合，以消除明日早晨的拆裝與座位調配壓力！</div></li>
+                                        <li class="flex items-start"><i class="fa-solid fa-id-card text-cyan-500 mt-1 mr-2 shrink-0"></i>1. 各房代表持該房隨身護照辦理入住手續，放置行李。</li>
+                                        <li class="flex items-start bg-amber-50 p-2.5 rounded-lg border border-amber-100"><i class="fa-solid fa-car-on text-amber-600 mt-0.5 mr-2 shrink-0"></i><div><strong class="text-amber-800 font-bold">2. 🚗 【極重要任務】司機於今晚預先將 2 號車的 1 張兒童座椅移至 1 號車並完成安裝固定。</strong>安裝後請實際開門確認 3 張座椅的配置位置、成人進出動線，以及第二／第三排安全帶是否能正常扣合，以消除明日早晨的拆裝與座位調配壓力！</div></li>
                                     </ul>
                                 </div>
                             </div>
@@ -521,7 +521,7 @@
             <!-- 20:00-21:00 A&W 晚餐 -->
             <div class="relative mb-8 pl-6">
                 <div class="timeline-node bg-green-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                <div class="glass-card rounded-2xl overflow-hidden">
                     <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
                         <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
                             <i class="fa-solid fa-chevron-down"></i>
@@ -555,15 +555,15 @@
     </div>
 
     <!-- ==================== Day 2 ==================== -->
-    <div id="day2" class="day-content hidden reveal">
+    <div id="day2" class="day-content block reveal active">
         <h2 class="text-xl font-black text-teal-900 mb-6 flex items-center leading-tight bg-teal-100/50 p-3 rounded-2xl border border-teal-200 shadow-sm">
             <div class="bg-teal-600 text-white w-10 h-10 rounded-full flex items-center justify-center mr-3 shrink-0 shadow-md">
                 <i class="fa-solid fa-dolphin"></i>
             </div>
-            Day 2｜海豚體驗與體力調節日
+            Day 2｜海豚體驗與單車分流採買日
         </h2>
 
-        <!-- 前置作業 Card (Collapsible) -->
+        <!-- 前置作業 Card -->
         <div class="glass-card p-5 rounded-2xl border-l-8 border-l-teal-500 mb-8 bg-white shadow-sm cursor-pointer transition-colors hover:bg-slate-50 relative" onclick="toggleCard(this)">
             <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
                 <i class="fa-solid fa-chevron-down"></i>
@@ -579,11 +579,7 @@
                         <div class="text-sm text-gray-700 leading-relaxed space-y-3">
                             <div class="flex items-start">
                                 <i class="fa-solid fa-check text-teal-500 mt-1 mr-2 shrink-0 text-base"></i>
-                                <p><strong>【前置作業】：</strong>出發前將大人小孩衣物以防水袋完成「一對一配對」。</p>
-                            </div>
-                            <div class="flex items-start">
-                                <i class="fa-solid fa-users-viewfinder text-teal-500 mt-1 mr-2 shrink-0 text-base"></i>
-                                <p><strong>【會合親屬與長輩動線】：</strong>親屬與 2 位長輩今日行程交通全權自理，不列入本動線規劃。自駕主力軍本日為 2 車 7 人 (4大3小)。</p>
+                                <p><strong>【前置作業】：</strong>出發前將大人小孩衣物以防水袋完成「一對一配對」。昨晚已完成 3 張兒童座椅轉移配置，今日 4大3小 單車出勤。</p>
                             </div>
                             <div class="flex items-start bg-teal-50 p-3 rounded-xl border border-teal-100">
                                 <i class="fa-solid fa-backpack text-teal-600 mt-1 mr-2 shrink-0 text-base"></i>
@@ -612,7 +608,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>07:00 - 07:35
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-sky-100 text-sky-800 border border-sky-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-sky-100 text-sky-800 border border-sky-200">
                                     <i class="fa-solid fa-cloud-showers-heavy"></i> 雨天決策
                                 </span>
                             </div>
@@ -623,9 +619,9 @@
                             <div class="accordion-inner">
                                 <div class="pt-3 pb-1">
                                     <ul class="text-sm text-gray-600 space-y-3 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-utensils text-slate-500 mt-1 mr-2 shrink-0"></i>A組 7 人（海豚組）用餐。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-cloud-sun-rain text-slate-500 mt-1 mr-2 shrink-0"></i><strong>07:00～07:30 確認：</strong>官方天氣、現場雨勢、元氣村是否取消或變更。</li>
-                                        <li class="flex items-start bg-slate-50 p-3 rounded-lg border border-slate-200"><i class="fa-solid fa-triangle-exclamation text-slate-600 mt-0.5 mr-2 shrink-0"></i><div><strong class="text-slate-800 font-bold block mb-1">🔴 07:35 正式決策：</strong>🟢 正常：07:45～07:50 理想發車，07:55 為最晚發車。<br>☔ 官方取消／暴雨／雷雨：不前往元氣村，立即切換雨天 B 案。</div></li>
+                                        <li class="flex items-start"><i class="fa-solid fa-utensils text-slate-500 mt-1 mr-2 shrink-0"></i>4大3小用餐。</li>
+                                        <li class="flex items-start"><i class="fa-solid fa-cloud-sun-rain text-slate-500 mt-1 mr-2 shrink-0"></i><strong>07:00～07:30 確認：</strong>官方天氣、現場雨勢、元氣村是否取消、雷雨／強風風險。</li>
+                                        <li class="flex items-start bg-slate-50 p-3 rounded-lg border border-slate-200"><i class="fa-solid fa-triangle-exclamation text-slate-600 mt-0.5 mr-2 shrink-0"></i><div><strong class="text-slate-800 font-bold block mb-1">🔴 07:35 正式決策：</strong>🟢 正常：07:45～07:50 理想發車。<br>☔ 若官方取消／暴雨／雷雨／強風：不前往元氣村，切換雨天 B 案。</div></li>
                                     </ul>
                                 </div>
                             </div>
@@ -647,7 +643,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>07:40 - 09:15
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-sky-100 text-sky-800 border border-sky-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-sky-100 text-sky-800 border border-sky-200">
                                     <i class="fa-solid fa-umbrella"></i> 啟動 B 案時執行
                                 </span>
                             </div>
@@ -657,12 +653,12 @@
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-2">
-                                    <p class="text-sm text-gray-700 leading-relaxed mb-2">飯店內整理、早餐延長／休息，等待當日天候與官方營運資訊。</p>
+                                    <p class="text-sm text-gray-700 leading-relaxed mb-2">07:40～09:15： 飯店內整理、休息，等待營運資訊。</p>
                                     <div class="bg-white p-3 rounded-lg border border-sky-100 text-sm text-gray-600 leading-relaxed shadow-sm">
                                         <strong>09:30 後判定：</strong><br>
-                                        • 若雨勢適合，再考慮 Neo Park（Neo Park 不得被寫成暴雨時的必去景點）。<br>
-                                        • 若暴雨／雷雨，優先名護 AEON MALL 等室內方案。<br>
-                                        • 若整體天候仍惡劣，直接回飯店休息，不強行補景點。
+                                        • 若雨勢適合再考慮 Neo Park。<br>
+                                        • 若暴雨／雷雨優先名護 AEON 等室內方案。<br>
+                                        • 若整體天候仍惡劣，直接回飯店休息，不強行補景點。Neo Park 不得被寫成暴雨時的必去景點。
                                     </div>
                                 </div>
                             </div>
@@ -671,7 +667,7 @@
                 </div>
             </div>
 
-            <!-- 07:40-07:55 發車 (正常) -->
+            <!-- 07:40-07:55 整備與 1車 發車 -->
             <div class="relative mb-10 pl-6">
                 <div class="timeline-node bg-red-500"></div>
                 <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
@@ -684,19 +680,20 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>07:40 - 07:55
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-red-100 text-red-700 border border-red-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-red-100 text-red-700 border border-red-200">
                                     <i class="fa-solid fa-sun"></i> 正常天氣方案
                                 </span>
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🔴 整備與正常發車</h4>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🔴 整備與 1車 發車</h4>
                         </div>
                         
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-3 pb-2">
                                     <ul class="text-sm text-gray-600 space-y-2.5 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-suitcase text-red-500 mt-1 mr-2 shrink-0"></i>07:40 離開餐廳回房拿裝備包與如廁。07:50 停車場集合。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-car text-red-500 mt-1 mr-2 shrink-0"></i><strong>🔴 07:45～07:50 理想發車，07:55 為最晚發車。</strong></li>
+                                        <li class="flex items-start"><i class="fa-solid fa-suitcase text-red-500 mt-1 mr-2 shrink-0"></i>07:40 離開餐廳拿裝備與如廁。</li>
+                                        <li class="flex items-start"><i class="fa-solid fa-car text-red-500 mt-1 mr-2 shrink-0"></i>🚗 <strong>【車輛編組】4大3小全體共乘 1 號車（WCX級）。</strong>出發前讓 3 名兒童實際坐入確認安全帶後，才可發車。</li>
+                                        <li class="flex items-start"><i class="fa-solid fa-clock text-red-500 mt-1 mr-2 shrink-0"></i>🔴 07:45～07:50 理想發車，07:55 為最晚發車。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-shirt text-blue-500 mt-1 mr-2 shrink-0"></i><strong>💡 專屬著裝：</strong>出門前大人小孩可直接將泳衣/防磨衣穿在內層，外搭輕便寬鬆 T 恤與短褲前往，節省現場著裝時間。</li>
                                         <li class="flex items-start bg-red-50 p-2 rounded-lg border border-red-100 mt-2"><i class="fa-solid fa-triangle-exclamation text-red-600 mt-0.5 mr-2 shrink-0"></i><strong class="text-red-700">07:55 後原則不再自行重新設計行程，除非官方途中正式通知取消。</strong></li>
                                     </ul>
@@ -726,7 +723,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>08:25 - 08:40
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-red-100 text-red-700 border border-red-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-red-100 text-red-700 border border-red-200">
                                     <i class="fa-solid fa-triangle-exclamation"></i> 絕對核心不可遲到
                                 </span>
                             </div>
@@ -766,7 +763,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>09:00 - 10:00
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-emerald-100 text-emerald-700 border border-emerald-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-emerald-100 text-emerald-700 border border-emerald-200">
                                     <i class="fa-solid fa-check"></i> 已預約
                                 </span>
                             </div>
@@ -803,7 +800,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>10:00 - 11:20
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-teal-100 text-teal-800 border border-teal-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-teal-100 text-teal-800 border border-teal-200">
                                     <i class="fa-solid fa-battery-full"></i> 體力補給
                                 </span>
                             </div>
@@ -849,7 +846,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>11:30 - 12:30
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-emerald-100 text-emerald-700 border border-emerald-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-emerald-100 text-emerald-700 border border-emerald-200">
                                     <i class="fa-solid fa-check"></i> 已預約
                                 </span>
                             </div>
@@ -886,8 +883,8 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>12:30 - 13:30
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-red-100 text-red-700 border border-red-200">
-                                    <i class="fa-solid fa-clock"></i> 13:20 離場
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-red-100 text-red-700 border border-red-200">
+                                    <i class="fa-solid fa-clock"></i> 13:20 離開
                                 </span>
                             </div>
                             <h4 class="text-gray-900 font-black text-base leading-snug">🚿 戰鬥盥洗 ＆ 🔴 離場</h4>
@@ -897,11 +894,17 @@
                             <div class="accordion-inner">
                                 <div class="pt-3">
                                     <ul class="text-sm text-gray-600 space-y-2.5 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-shower text-gray-400 mt-1 mr-2 shrink-0"></i><strong>🟡 12:30 開始戰鬥盥洗。</strong>浴室一對一依配對迅速沖洗，換上準備好的乾淨短袖、內衣褲，鞋子直接穿運動涼鞋上車最俐落。</li>
+                                        <li class="flex items-start"><i class="fa-solid fa-shower text-gray-400 mt-1 mr-2 shrink-0"></i><strong>🟡 12:30 開始戰鬥盥洗。</strong>浴室一對一依配對迅速沖洗更衣。換上準備好的乾淨短袖、內衣褲，鞋子直接穿運動涼鞋上車最俐落。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-car-side text-red-600 mt-1 mr-2 shrink-0"></i><strong class="text-red-700">🔴 13:20 正常離場目標；13:30 最晚離場。</strong></li>
                                     </ul>
                                 </div>
                             </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <a href="https://www.google.com/maps/search/?api=1&query=本部元氣村" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="flex items-center justify-center w-full min-h-[48px] bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all text-sm shadow-md active:scale-[0.98] gap-2">
+                                <i class="fa-solid fa-location-dot text-lg"></i> 本部元氣村
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -927,7 +930,7 @@
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-2">
-                                    <p class="text-sm text-gray-600 leading-relaxed">13:20～13:30 離開元氣村，前往海邦丸。</p>
+                                    <p class="text-sm text-gray-600 leading-relaxed">1 號車（7人同車）離開元氣村，前往海邦丸。</p>
                                 </div>
                             </div>
                         </div>
@@ -965,10 +968,9 @@
                             <div class="accordion-inner">
                                 <div class="pt-3 pb-2">
                                     <ul class="text-sm text-gray-600 space-y-2.5 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-check text-teal-500 mt-1 mr-2 shrink-0"></i><strong>🟢 13:30 正常到店。</strong>停妥車後直接入內吹冷氣。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-clock text-amber-500 mt-1 mr-2 shrink-0"></i><strong>🟡 13:40</strong> 若開始安排座位 → 繼續。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-triangle-exclamation text-orange-500 mt-1 mr-2 shrink-0"></i><strong class="text-orange-600">🟠 13:50 仍無法確認入店時間 → 開始準備備案。</strong></li>
-                                        <li class="flex items-start bg-red-50 p-2.5 rounded-lg border border-red-100"><i class="fa-solid fa-ban text-red-600 mt-0.5 mr-2 shrink-0"></i><strong class="text-red-700">🔴 14:00 未入店 → 放棄海邦丸，啟動備案。</strong></li>
+                                        <li class="flex items-start"><i class="fa-solid fa-check text-teal-500 mt-1 mr-2 shrink-0"></i>🟢 13:30 正常到店。停妥車後直接入內吹冷氣。</li>
+                                        <li class="flex items-start"><i class="fa-solid fa-clock text-amber-500 mt-1 mr-2 shrink-0"></i>🟡 13:40 若開始安排座位 → 繼續。</li>
+                                        <li class="flex items-start bg-red-50 p-2.5 rounded-lg border border-red-100"><i class="fa-solid fa-ban text-red-600 mt-0.5 mr-2 shrink-0"></i><div><strong class="text-red-700">🔴 14:00 未入店 → 放棄海邦丸，啟動午餐備案。</strong></div></li>
                                         <li class="flex items-start"><i class="fa-solid fa-arrow-right-from-bracket text-red-500 mt-1 mr-2 shrink-0"></i><strong class="text-red-600">🔴 14:30 最晚開始離席。</strong></li>
                                     </ul>
                                 </div>
@@ -984,11 +986,11 @@
                 </div>
             </div>
             
-            <!-- 14:30-14:45 斷電評估點 -->
+            <!-- 14:30-14:45 斷電評估 -->
             <div class="relative mb-10 pl-6">
-                <div class="timeline-node bg-yellow-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200 bg-yellow-50/30">
-                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-yellow-50/50" onclick="toggleCard(this)">
+                <div class="timeline-node bg-red-500"></div>
+                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200 bg-red-50/20">
+                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-red-50/40" onclick="toggleCard(this)">
                         <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
                             <i class="fa-solid fa-chevron-down"></i>
                         </div>
@@ -997,22 +999,22 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>14:30 - 14:45
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-amber-100 text-amber-700 border border-amber-200">
-                                    <i class="fa-solid fa-battery-quarter"></i> 狀態評估
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-red-100 text-red-700 border border-red-200">
+                                    <i class="fa-solid fa-battery-quarter"></i> 狀態斷電評估
                                 </span>
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🟡 狀態斷電評估</h4>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🔴 狀態斷電評估</h4>
                         </div>
                         
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-3">
-                                    <p class="text-sm text-gray-700 leading-relaxed mb-2">飯後於商場稍作整理。現場評估符合任一條件：</p>
-                                    <ul class="text-sm text-gray-600 space-y-1 mb-3 pl-2">
-                                        <li>• ≥ 2 位小孩熟睡</li>
-                                        <li>• ≥ 1 位小孩明顯鬧脾氣</li>
+                                    <p class="text-sm text-gray-800 font-bold mb-2 leading-relaxed">飯後於商場稍作整理。若符合任一條件：</p>
+                                    <ul class="text-sm text-gray-600 space-y-1 mb-2 pl-2">
+                                        <li>• ≥ 2小孩熟睡</li>
+                                        <li>• ≥ 1小孩明顯鬧脾氣</li>
                                     </ul>
-                                    <p class="text-sm text-amber-800 bg-amber-100/50 p-2.5 rounded-lg border border-amber-200 leading-relaxed">若符合上述狀況，直接取消 MEGA 唐吉訶德採買，返回飯店休息。</p>
+                                    <p class="text-sm text-red-800 bg-red-100/50 p-2.5 rounded-lg border border-red-200 leading-relaxed mt-3">直接取消下午分流採買，1號車全員回飯店休息。</p>
                                 </div>
                             </div>
                         </div>
@@ -1020,229 +1022,110 @@
                 </div>
             </div>
 
-            <!-- 14:45-15:15 前往唐吉訶德 -->
-            <div class="relative mb-8 pl-6">
-                <div class="timeline-node bg-teal-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
-                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
-                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </div>
-                        <div class="pr-8">
-                            <div class="flex flex-wrap items-center gap-2 mb-2">
-                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>14:45 - 15:15
-                                </span>
-                            </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🚗 前往唐吉訶德</h4>
-                        </div>
-                        
-                        <div class="accordion-content">
-                            <div class="accordion-inner">
-                                <div class="pt-2">
-                                    <p class="text-sm text-gray-600 leading-relaxed">若評估過關，驅車前往 MEGA 唐吉訶德 名護店（車程約 30 分鐘）。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 15:15-16:45 MEGA 唐吉訶德 -->
+            <!-- 下午 A/B 雙軌彈性採買方案 (Large Card) -->
             <div class="relative mb-10 pl-6">
                 <div class="timeline-node bg-purple-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
-                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
-                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
+                <div class="glass-card rounded-2xl overflow-hidden border border-purple-200 shadow-md cursor-pointer transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
+                    <div class="bg-gradient-to-r from-purple-900 to-indigo-800 text-white px-5 py-4 flex items-center justify-between">
+                        <div>
+                            <h3 class="font-black text-base md:text-lg flex items-center shadow-sm">
+                                <i class="fa-solid fa-star text-yellow-400 mr-2"></i>Day 2 下午 A/B 雙軌彈性採買方案
+                            </h3>
+                            <p class="text-xs text-purple-200 mt-1 opacity-90">視全家購物慾望與體力，彈性決定採買時長與海岸散步。</p>
+                        </div>
+                        <div class="text-white/80 transition-transform duration-300 chevron-icon text-xl shrink-0 ml-4">
                             <i class="fa-solid fa-chevron-down"></i>
                         </div>
-                        <div class="pr-8">
-                            <div class="flex flex-wrap items-center gap-2 mb-2">
-                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>15:15 - 16:45
-                                </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-purple-100 text-purple-700 border border-purple-200">
-                                    <i class="fa-solid fa-bag-shopping"></i> 購物
-                                </span>
+                    </div>
+                    
+                    <div class="accordion-content expanded"> <!-- Auto expanded for this complex table -->
+                        <div class="accordion-inner overflow-x-auto">
+                            <table class="w-full text-left text-[13px] border-collapse min-w-[650px] bg-white">
+                                <thead>
+                                    <tr class="bg-purple-50/50 text-purple-950 border-b border-purple-100">
+                                        <th class="p-3 font-bold w-24 border-r border-purple-100 whitespace-nowrap">時間</th>
+                                        <th class="p-3 font-bold text-purple-800 border-r border-purple-100">🟣 深度採買版（放棄傍晚散步）</th>
+                                        <th class="p-3 font-bold text-emerald-700">🟢 標準休閒版（標準採買＋海岸散步）</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-gray-200 text-gray-700">
+                                    <tr>
+                                        <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">14:45-15:15</td>
+                                        <td colspan="2" class="p-3 leading-relaxed text-center bg-indigo-50/30">
+                                            🚗 <strong>【放人與分流】：</strong>1號車駛入名護市區，先至 AEON 或 Birthday 放下 B組 (2大1小)；隨後 A組 (2大2小＋司機) 駛往 MEGA 唐吉訶德。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">15:15-17:00<br><span class="text-[10px] text-gray-500 font-normal">或 16:20</span></td>
+                                        <td class="p-3 border-r border-gray-100 leading-relaxed bg-purple-50/20">
+                                            🛍️ <strong>【獨立分流採買】(約 105 分鐘)</strong><br>
+                                            雙方不受時間限制，開心進行深度採買。
+                                        </td>
+                                        <td class="p-3 leading-relaxed bg-emerald-50/20">
+                                            🛍️ <strong>【獨立分流採買】(約 65 分鐘)</strong><br>
+                                            15:15–16:20 雙方各自獨立採買。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">17:00-17:15<br><span class="text-[10px] text-gray-500 font-normal">或 16:20-16:40</span></td>
+                                        <td class="p-3 border-r border-gray-100 leading-relaxed bg-purple-50/20">
+                                            🟡 <strong>【收尾與彈性會合】</strong><br>
+                                            17:00 兩組開始收尾；哪組先買完就透過 LINE 聯絡，依位置與戰利品數量決定誰去接誰。17:15 最晚會合。
+                                        </td>
+                                        <td class="p-3 leading-relaxed bg-emerald-50/20">
+                                            🟡 <strong>【收尾與彈性會合】</strong><br>
+                                            16:20–16:40 雙方聯絡彈性會合，視情況決定誰接誰。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">17:15-17:30<br><span class="text-[10px] text-gray-500 font-normal">或 16:40-17:00</span></td>
+                                        <td class="p-3 border-r border-gray-100 leading-relaxed bg-purple-50/20">
+                                            🔴 <strong>【合體回飯店】</strong><br>
+                                            7人合體，驅車回櫻之家放置戰利品。
+                                        </td>
+                                        <td class="p-3 leading-relaxed bg-emerald-50/20">
+                                            🔴 <strong>【合體回飯店】</strong><br>
+                                            16:40–17:00 7人合體，驅車回櫻之家放置戰利品。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">17:30 左右</td>
+                                        <td class="p-3 border-r border-gray-100 text-gray-400 leading-relaxed bg-purple-50/20">
+                                            (無傍晚散步行程，直接休息或前往超市)
+                                        </td>
+                                        <td class="p-3 leading-relaxed bg-emerald-50/20">
+                                            🌅 <strong>【東江海岸傍晚散步／海景 Bonus】</strong><br>
+                                            17:00–17:30 飯店後方海岸散步、看海（名護日落約 18:22，此為日落前夕景致，自由參加，累了就直接休息）。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">17:30 後</td>
+                                        <td class="p-3 border-r border-gray-100 leading-relaxed bg-purple-50/20">
+                                            🛒 <strong>【Kanehide 超市採買】</strong><br>
+                                            彈性時間。派 2 大人採買便當壽司。
+                                        </td>
+                                        <td class="p-3 leading-relaxed bg-emerald-50/20">
+                                            🛒 <strong>【Kanehide 超市採買】</strong><br>
+                                            17:30–18:30 彈性時間。派 2 大人採買便當壽司。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">18:30 後</td>
+                                        <td colspan="2" class="p-3 leading-relaxed text-center bg-indigo-50/30">
+                                            <strong>【客房晚餐與復原】</strong><br>
+                                            輕鬆晚餐。睡前將 1 號車的 1 張兒童座椅搬回 2 號車固定，準備明日雙車出發。
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="p-4 bg-red-50 text-red-800 text-xs font-bold border-t border-red-100">
+                                ⚠️ 嚴格規定：A/B組 雙方只能在「AEON/Birthday ↔ 唐吉訶德」之間會合，絕不自行增加第三個購物點。
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🛍️ MEGA 唐吉訶德名護店</h4>
-                        </div>
-                        
-                        <div class="accordion-content">
-                            <div class="accordion-inner">
-                                <div class="pt-3 pb-1">
-                                    <p class="text-sm text-gray-600 leading-relaxed mb-3">室內免稅採買、零食、藥妝雜貨。（最長停留 90 分鐘）。</p>
-                                    <div class="bg-slate-50 p-2.5 rounded-lg border border-slate-200 text-sm text-slate-700 leading-relaxed">
-                                        <i class="fa-solid fa-umbrella text-slate-500 mr-1"></i> <strong>☔ 【雨天備案】：</strong>室內行程不受天候影響，可安心採買。
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="mt-4">
-                            <a href="https://www.google.com/maps/search/?api=1&query=MEGA唐吉訶德+名護店" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="flex items-center justify-center w-full min-h-[48px] bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl transition-all text-sm shadow-md active:scale-[0.98] gap-2">
-                                <i class="fa-solid fa-bag-shopping text-lg"></i> 唐吉訶德導航
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- 16:45-17:00 返回飯店 -->
-            <div class="relative mb-8 pl-6">
-                <div class="timeline-node bg-teal-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
-                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
-                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </div>
-                        <div class="pr-8">
-                            <div class="flex flex-wrap items-center gap-2 mb-2">
-                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>16:45 - 17:00
-                                </span>
-                            </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🚗 前往飯店</h4>
-                        </div>
-                        
-                        <div class="accordion-content">
-                            <div class="accordion-inner">
-                                <div class="pt-2">
-                                    <p class="text-sm text-gray-600 leading-relaxed">驅車返回名護櫻之家飯店放置戰利品。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 17:00-17:30 東江沙灘夕陽 -->
-            <div class="relative mb-10 pl-6">
-                <div class="timeline-node bg-yellow-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
-                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
-                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </div>
-                        <div class="pr-8">
-                            <div class="flex flex-wrap items-center gap-2 mb-2">
-                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>17:00 - 17:30
-                                </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-amber-100 text-amber-700 border border-amber-200">
-                                    <i class="fa-solid fa-gift"></i> 彈性 Bonus
-                                </span>
-                            </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🌅 東江海岸看夕陽</h4>
-                        </div>
-                        
-                        <div class="accordion-content">
-                            <div class="accordion-inner">
-                                <div class="pt-2">
-                                    <p class="text-sm text-gray-600 leading-relaxed">🟡 Bonus 行程，有精神就去，累了直接取消。</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="mt-4">
-                            <a href="https://www.google.com/maps/search/?api=1&query=名護櫻之家飯店" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="flex items-center justify-center w-full min-h-[48px] bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all text-sm shadow-md active:scale-[0.98] gap-2">
-                                <i class="fa-solid fa-location-dot text-lg"></i> 名護櫻之家
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 17:30-18:30 Kanehide 採買 -->
-            <div class="relative mb-10 pl-6">
-                <div class="timeline-node bg-teal-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
-                    <div class="h-28 sm:h-36 bg-gray-200 relative img-gradient">
-                        <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover" alt="生鮮超市" onerror="this.src='https://placehold.co/800x400/0d9488/ffffff?text=Kanehide超市'">
-                    </div>
-                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
-                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </div>
-                        <div class="pr-8">
-                            <div class="flex flex-wrap items-center gap-2 mb-2">
-                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>17:30 - 18:30
-                                </span>
-                            </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🛒 Kanehide 超市採買</h4>
-                        </div>
-                        
-                        <div class="accordion-content">
-                            <div class="accordion-inner">
-                                <div class="pt-2">
-                                    <p class="text-sm text-gray-600 leading-relaxed">彈性時間。派 2 位大人採購便當壽司，全團不必前往，其餘人員回房休息。</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="mt-4">
-                            <a href="https://www.google.com/maps/search/?api=1&query=Town+Plaza+Kanehide+なご灣市場店" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="flex items-center justify-center w-full min-h-[48px] bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all text-sm shadow-md active:scale-[0.98] gap-2">
-                                <i class="fa-solid fa-cart-shopping text-lg"></i> Kanehide 導航
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 18:15 起 晚餐派對 & 就寢 -->
-            <div class="relative pl-6">
-                <div class="timeline-node bg-teal-500"></div>
-                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
-                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
-                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </div>
-                        <div class="pr-8">
-                            <div class="flex flex-wrap items-center gap-2 mb-2">
-                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>18:15 後
-                                </span>
-                            </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🍣 客房輕鬆晚餐</h4>
-                        </div>
-                        
-                        <div class="accordion-content">
-                            <div class="accordion-inner">
-                                <div class="pt-2">
-                                    <p class="text-sm text-gray-800 leading-relaxed">客房內輕鬆享用超市晚餐，不設定全團集合時間，早點洗澡就寢。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Day 2 備案鏈 (Standalone) -->
-            <div class="relative pl-6 mt-10 mb-10">
-                <div class="glass-card p-5 rounded-2xl border-l-8 border-l-indigo-500 bg-indigo-50/30 shadow-sm cursor-pointer transition-colors hover:bg-indigo-50/50" onclick="toggleCard(this)">
-                    <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </div>
-                    <div class="pr-8">
-                        <h3 class="font-black text-indigo-950 text-base flex items-center">
-                            <i class="fa-solid fa-sitemap text-indigo-500 mr-2 text-lg"></i>Day 2 最重要備案鏈
-                        </h3>
-                    </div>
-                    <div class="accordion-content">
-                        <div class="accordion-inner">
-                            <div class="pt-4 mt-2">
-                                <div class="space-y-2.5 text-xs text-gray-700 leading-relaxed">
-                                    <div class="bg-white p-3 rounded-lg border border-gray-200 shadow-sm"><span class="mr-1.5 text-base">🐬</span> <strong>正常版：</strong>元氣村 → 海邦丸 → 唐吉訶德 → 飯店 → 海邊 → Kanehide</div>
-                                    <div class="bg-blue-50 p-3 rounded-lg border border-blue-200 text-blue-800 shadow-sm"><span class="mr-1.5 text-base">🌧️</span> <strong>雨天版：</strong>元氣村（官方正常營運）→ 海邦丸 → 唐吉訶德 → 飯店（不做海邊）</div>
-                                    <div class="bg-amber-50 p-3 rounded-lg border border-amber-200 text-amber-800 shadow-sm"><span class="mr-1.5 text-base">😴</span> <strong>疲勞版：</strong>元氣村 → 海邦丸 → 飯店（唐吉訶德取消）</div>
-                                    <div class="bg-red-50 p-3 rounded-lg border border-red-200 text-red-800 shadow-sm"><span class="mr-1.5 text-base">🍱</span> <strong>海邦丸失敗版：</strong>元氣村 → 備案午餐 → 唐吉訶德縮短 → 飯店</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -1272,6 +1155,8 @@
                         <ul class="text-sm text-gray-700 space-y-3">
                             <li class="flex items-start"><i class="fa-solid fa-eye text-blue-500 mt-1 mr-2 shrink-0"></i><div><strong class="text-blue-900">不搶水槽第一排：</strong>尋找最舒適的觀賞視野。</div></li>
                             <li class="flex items-start bg-red-50 p-3 rounded-lg border border-red-100"><i class="fa-solid fa-thumbtack text-red-500 mt-1 mr-2 shrink-0"></i><div><strong class="text-red-800">全日 6 個核心觀賞／集合節點：</strong><br>【09:20 全團集合完成、09:30 鬼蝠魟、11:15 海豚劇場到位、11:30 海豚秀、14:40 鯨鯊卡位、15:00 鯨鯊餵食】；另設撤退點【15:35 正式撤退】。</div></li>
+                            <li class="flex items-start"><i class="fa-solid fa-arrows-split-up-and-left text-blue-500 mt-1 mr-2 shrink-0"></i><div><strong class="text-blue-900">真・先鋒雙軌分流：</strong>車 1 先發於 07:15 出發；車 2 主力 07:35-07:40 出發。各自獨立導航，不追車、不路邊等車。</div></li>
+                            <li class="flex items-start"><i class="fa-solid fa-stamp text-blue-500 mt-1 mr-2 shrink-0"></i><div><strong class="text-blue-900">避暑 ＆ 離館蓋章備援：</strong>11:30 Okichan 劇場大遮陽棚看海豚秀；中午於「美海廣場」吹冷氣野餐。10:45–11:00 前往戶外前手背務必蓋透明螢光章並保管好票根。</div></li>
                         </ul>
                     </div>
                 </div>
@@ -1279,7 +1164,7 @@
         </div>
         
         <div class="mobile-timeline">
-            <!-- 07:15 車1先發 -->
+            <!-- 07:15 車1先發出發 -->
             <div class="relative mb-10 pl-6">
                 <div class="timeline-node bg-red-500"></div>
                 <div class="glass-card rounded-2xl overflow-hidden border border-gray-200 bg-red-50/10">
@@ -1292,7 +1177,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>07:15
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-red-100 text-red-700 border border-red-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-red-100 text-red-700 border border-red-200">
                                     <i class="fa-solid fa-car"></i> 車1先發
                                 </span>
                             </div>
@@ -1302,7 +1187,7 @@
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-2">
-                                    <p class="text-sm text-gray-600 leading-relaxed"><strong>第 1 車（先鋒）07:15 出發。</strong>沿 449 縣道北上。</p>
+                                    <p class="text-sm text-gray-600 leading-relaxed"><strong>第 1 車（先鋒）07:15 提前出發。</strong>沿 449 縣道北上。</p>
                                 </div>
                             </div>
                         </div>
@@ -1323,7 +1208,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>07:35 - 07:40
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-blue-100 text-blue-700 border border-blue-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-blue-100 text-blue-700 border border-blue-200">
                                     <i class="fa-solid fa-car"></i> 車2出發
                                 </span>
                             </div>
@@ -1333,7 +1218,7 @@
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-2">
-                                    <p class="text-sm text-gray-600 leading-relaxed"><strong>第 2 車（主力）07:35～07:40 出發。</strong>獨立導航前往水族館。</p>
+                                    <p class="text-sm text-gray-600 leading-relaxed"><strong>第 2 車（主力）07:35-07:40 出發。</strong>獨立導航前往水族館。</p>
                                 </div>
                             </div>
                         </div>
@@ -1354,7 +1239,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>08:00 - 08:15
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-amber-100 text-amber-700 border border-amber-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-amber-100 text-amber-700 border border-amber-200">
                                     <i class="fa-solid fa-gift"></i> 降級 Bonus
                                 </span>
                             </div>
@@ -1381,7 +1266,7 @@
                 </div>
             </div>
 
-            <!-- 08:35-09:20 車2就位 -->
+            <!-- 08:35-09:20 車2抵達 & 全團集合完成 -->
             <div class="relative mb-10 pl-6">
                 <div class="timeline-node bg-blue-500"></div>
                 <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
@@ -1394,18 +1279,18 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>08:35 - 09:20
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-red-100 text-red-700 border border-red-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-red-100 text-red-700 border border-red-200">
                                     <i class="fa-solid fa-users"></i> 全團集合完成
                                 </span>
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🚶 【車2抵達 P7】 ＆ 🔴 集合完成</h4>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🚶 【車2抵達 ＆ 集合完成】</h4>
                         </div>
                         
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-2 pb-2">
                                     <ul class="text-sm text-gray-600 space-y-2 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-walking text-blue-500 mt-1 mr-2 shrink-0"></i><strong class="text-red-600">🔴 車 2 最遲於 08:50 前抵達 P7。</strong>長輩、小孩優先如廁。</li>
+                                        <li class="flex items-start"><i class="fa-solid fa-walking text-blue-500 mt-1 mr-2 shrink-0"></i>🔴 車 2 最遲於 08:50 前抵達 P7。長輩、小孩優先如廁。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-clock text-red-500 mt-1 mr-2 shrink-0"></i><strong class="text-red-600 font-bold block mt-1">🔴 09:20 前全團大水槽附近集合完成。</strong></li>
                                     </ul>
                                 </div>
@@ -1437,11 +1322,11 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>09:30
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-red-100 text-red-700 border border-red-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-red-100 text-red-700 border border-red-200">
                                     <i class="fa-solid fa-location-crosshairs"></i> 核心觀賞
                                 </span>
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🔴 【鬼蝠魟】</h4>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🔴 09:30 【鬼蝠魟】</h4>
                         </div>
                         
                         <div class="accordion-content">
@@ -1468,7 +1353,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>10:00 - 10:45
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-green-100 text-green-700 border border-green-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-green-100 text-green-700 border border-green-200">
                                     <i class="fa-solid fa-leaf"></i> 彈性享受
                                 </span>
                             </div>
@@ -1548,6 +1433,9 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>12:00 - 13:00
                                 </span>
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-green-100 text-green-700 border border-green-200">
+                                    <i class="fa-solid fa-leaf"></i> 彈性享受
+                                </span>
                             </div>
                             <h4 class="text-gray-900 font-black text-base leading-snug">🍱 【午餐】美海廣場休息／午餐</h4>
                         </div>
@@ -1555,7 +1443,7 @@
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-2 pb-2">
-                                    <p class="text-sm text-gray-600 leading-relaxed">美海廣場休息／午餐，座位依現場狀況安排。</p>
+                                    <p class="text-sm text-gray-600 leading-relaxed">座位依現場狀況安排。</p>
                                 </div>
                             </div>
                         </div>
@@ -1582,7 +1470,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>13:00 - 14:40
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-green-100 text-green-700 border border-green-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-green-100 text-green-700 border border-green-200">
                                     <i class="fa-solid fa-shoe-prints"></i> 自由漫遊
                                 </span>
                             </div>
@@ -1622,7 +1510,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>14:40 - 15:20
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-red-100 text-red-700 border border-red-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-red-100 text-red-700 border border-red-200">
                                     <i class="fa-solid fa-location-crosshairs"></i> 核心觀賞
                                 </span>
                             </div>
@@ -1663,7 +1551,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>15:20 - 16:10
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-red-100 text-red-700 border border-red-200">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-bold bg-red-100 text-red-700 border border-red-200">
                                     <i class="fa-solid fa-shield-halved"></i> 撤退防線
                                 </span>
                             </div>
@@ -1674,7 +1562,7 @@
                             <div class="accordion-inner">
                                 <div class="pt-3 pb-2">
                                     <ul class="text-sm text-gray-600 space-y-3 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-toilet text-gray-400 mt-1 mr-2 shrink-0"></i><strong>15:20–15:30 🚽 【如廁與確認】：</strong>快速如廁與確認。</li>
+                                        <li class="flex items-start"><i class="fa-solid fa-toilet text-gray-400 mt-1 mr-2 shrink-0"></i><strong>15:20–15:30 🚽 【如廁與確認】：</strong>快速如廁與確認人員。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-person-walking text-gray-400 mt-1 mr-2 shrink-0"></i><strong>15:30 🚶 【開始往出口】：</strong>🔴 15:30 開始往出口移動。</li>
                                         <li class="flex items-start bg-red-50 p-2.5 rounded-lg border border-red-100"><i class="fa-solid fa-person-running text-red-600 mt-0.5 mr-2 shrink-0"></i><div><strong class="text-red-700">🔴 15:35 【正式撤退】：</strong>正式撤退往 P7。15:35 之後：不買紀念品、不拍照拖延、不追加 Bonus、不等待個別成員。</div></li>
                                         <li class="flex items-start"><i class="fa-solid fa-car-side text-red-600 mt-1 mr-2 shrink-0"></i><strong class="text-red-600">🔴 16:10 【P7最晚發車】：</strong>最晚離開 P7，前往名護（車上可小睡）。徹底瓦解南下塞車威脅。</li>
@@ -1708,7 +1596,7 @@
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
                                     <i class="fa-regular fa-clock mr-1 opacity-80"></i>17:20 - 17:45
                                 </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-mono bg-red-100 text-red-800 border border-red-200 font-bold">
+                                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[13px] font-mono bg-red-100 text-red-800 border border-red-200 font-bold">
                                     <i class="fa-solid fa-hashtag"></i> 預約單號 9ASHJD
                                 </span>
                             </div>
@@ -1756,7 +1644,7 @@
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-2 pb-2">
-                                    <p class="text-sm text-gray-600 mb-2 leading-relaxed">開車返回櫻之家飯店休息。</p>
+                                    <p class="text-sm text-gray-600 mb-2 leading-relaxed">1. 開車返回櫻之家飯店休息。<br>2. 唐吉訶德為自由加碼項目（想逛的人自行開車前往，不綁定團體）。</p>
                                 </div>
                             </div>
                         </div>
@@ -1778,7 +1666,7 @@
             <div class="bg-indigo-600 text-white w-10 h-10 rounded-full flex items-center justify-center mr-3 shrink-0 shadow-md">
                 <i class="fa-solid fa-plane-departure"></i>
             </div>
-            Day 4｜早鳥與撤退紀律
+            Day 4｜早鳥出發、採買、水族館與撤退紀律
         </h2>
 
         <p class="text-sm font-bold text-red-700 bg-red-50 p-3.5 rounded-xl border border-red-200 mb-6 shadow-sm flex items-start leading-relaxed">
@@ -1793,7 +1681,7 @@
             </div>
             <div class="pr-8">
                 <h3 class="font-black text-indigo-950 text-base flex items-center">
-                    <span class="text-xl mr-2">🐧</span> 【DMM 動物體驗券・唯一 5 分鐘操作窗口】
+                    <span class="text-xl mr-2">🐧</span> 【DMM 體驗券操作／確認】
                 </h3>
             </div>
             
@@ -1801,15 +1689,15 @@
                 <div class="accordion-inner">
                     <div class="pt-4 mt-2 border-t border-gray-200">
                         <p class="text-sm text-gray-700 leading-relaxed mb-4">
-                            <strong>09:00～09:05 於行車途中唯一操作窗口：</strong>若當日官方頁面明確提供線上活動券，依當日頁面規則由副駕或後座乘客操作；若無，依館內先着順規則處理。開始嘗試取得 14:30 企鵝體驗券。<br>
-                            <strong class="text-indigo-800">執行方式：</strong>3 支手機同步操作，每台手機各嘗試購買 1 張。
+                            <strong>09:00～09:05 於行車途中唯一操作窗口：</strong>若當日官方頁面明確提供線上活動券，依當日頁面規則由副駕或後座乘客操作；若無，依館內先着順規則處理。<br>
+                            <strong class="text-indigo-800">紀律原則：</strong>若可線上購買則執行三手機方案；若需入館現場購買則改為現場先到先得。完全不影響駕駛行車。不要自行猜測官方系統。
                         </p>
                         <div class="space-y-3 mb-5">
                             <div class="bg-emerald-50 p-3.5 rounded-xl border border-emerald-100 text-sm leading-relaxed">
-                                <strong class="text-emerald-700"><i class="fa-solid fa-check-circle mr-1"></i> 紀律原則 🟢：</strong>若可線上購買則執行三手機方案；若需入館現場購買則改為現場先到先得。成功 → 走 A案；若只成功 2 張，就 2 名小孩參加。
+                                <strong class="text-emerald-700"><i class="fa-solid fa-check-circle mr-1"></i> 成功 🟢：</strong>走 A案；若成功 2 張 → 2 名小孩參加。
                             </div>
                             <div class="bg-red-50 p-3.5 rounded-xl border border-red-100 text-sm leading-relaxed">
-                                <strong class="text-red-700"><i class="fa-solid fa-ban mr-1"></i> 紀律原則 🔴：</strong>09:05 未成功達標 → 立即停止，不再刷新。直接啟動 B 案。（搶得到是 Bonus，09:05 停止才是紀律。完全不影響駕駛行車。不能影響 09:10 行李裝車、09:30 離開名護。不要自行猜測官方系統。）
+                                <strong class="text-red-700"><i class="fa-solid fa-ban mr-1"></i> 09:05 停損 🔴：</strong>立即停止，不再刷新直接走 B案。
                             </div>
                         </div>
                     </div>
@@ -1823,160 +1711,70 @@
             </div>
         </div>
 
-        <!-- 原方案 vs 備案 B 時間對照表 (Collapsible) -->
-        <div class="glass-card rounded-2xl overflow-hidden mb-8 border border-indigo-200 shadow-sm cursor-pointer transition-colors hover:bg-slate-50 relative" onclick="toggleCard(this)">
-            <div class="bg-gradient-to-r from-indigo-900 to-slate-800 text-white px-5 py-3 font-bold text-sm flex items-center justify-between pr-12">
-                <span><i class="fa-solid fa-code-compare mr-2"></i>Day 4【A案】vs.【B案】完整對照</span>
-                <span class="text-[10px] bg-white/20 px-2.5 py-1 rounded border border-white/30 tracking-wider">點擊展開</span>
-            </div>
-            <div class="absolute right-4 top-3 text-white/80 transition-transform duration-300 chevron-icon text-lg">
-                <i class="fa-solid fa-chevron-down"></i>
-            </div>
-            
-            <div class="accordion-content">
-                <div class="accordion-inner overflow-x-auto">
-                    <table class="w-full text-left text-[13px] border-collapse min-w-[650px] bg-white">
-                        <thead>
-                            <tr class="bg-indigo-50 text-indigo-950 border-b border-indigo-100">
-                                <th class="p-3 font-bold w-24 border-r border-indigo-100 whitespace-nowrap">時間</th>
-                                <th class="p-3 font-bold bg-emerald-50/90 text-emerald-950 border-r border-indigo-100">⭐ A案：取得企鵝體驗券（推薦）</th>
-                                <th class="p-3 font-bold bg-amber-50/90 text-amber-950">⭐ B案：未取得體驗券（備案）</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-200 text-gray-700">
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">06:45-07:30</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">
-                                    🍳 <strong>【早餐與整理】：</strong><br>
-                                    配合早起節奏，享用飯店早餐並完成最後行李確認。
-                                </td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">07:30-07:45</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">
-                                    📦 <strong>【裝車與退房】：</strong><br>
-                                    兩台車開始裝行李。落實「集中體積，不集中超重」原則。完成巡房與退房。
-                                </td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">07:45</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed text-red-600 font-bold">🚗 <strong>【離開名護】：</strong>🔴 兩車正式發車南下。徹底避開週一早晨的市區與南下車潮。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed text-red-600 font-bold">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">09:00-09:05</td>
-                                <td class="p-3 border-r border-gray-100 text-indigo-900 font-bold leading-relaxed">🟢 <strong>【車上操作 DMM】</strong><br>由副駕或後座乘客於行車途中使用 4G/5G 操作。09:05 為唯一停止點，完全不影響駕駛行車。</td>
-                                <td class="p-3 bg-amber-50/20 text-red-700 font-bold leading-relaxed">🔴 若 09:05 失敗或未達預期，立即停止，啟動備案 B。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">09:20-09:30</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🅿️ <strong>【抵達 iias 豐崎】：</strong>順利抵達商場。此時商場尚未營業，停車場空曠，兩車可輕鬆停放同區。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">09:30-11:00</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🐟 <strong>【DMM 水族館包場】：</strong>商場未開，直接進 DMM 水族館！ 享受無人潮的高品質觀賞體驗。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">11:00-12:00</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🍱 <strong>【避開尖峰午餐】：</strong>10:00 商場開門後，11:00 直接前往美食街。此時餐廳剛準備好，9 人免排隊輕鬆入座。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">12:00-14:30</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🛍️ <strong>【極致充裕的採買】：</strong>擁有高達 2.5 小時的採買時間！可在 Foodway 超市與各專門店從容掃貨。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">14:30-14:45</td>
-                                <td class="p-3 border-r border-gray-100 text-blue-700 font-bold leading-relaxed">🐧 <strong>【企鵝體驗】：</strong>參與 14:30 企鵝體驗活動。</td>
-                                <td class="p-3 bg-amber-50/20 text-gray-400 leading-relaxed">(無，繼續採買或休息)</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">14:45-15:10</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🛍️ <strong>【最後挑選】：</strong>停止挑選新商品。<strong class="text-red-600 block mt-1">🧳 15:10 後不得購買體積不可控的大件商品（須確認車內剩餘空間）。</strong></td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">15:20-15:30</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed text-red-600 font-bold">🔴 <strong>【結帳紅線】：</strong>15:20 靠攏結帳區，15:25 開始結帳，🔴 15:30 全部完成付款。禁止新增商品。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed text-red-600 font-bold">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">15:30-15:40</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">📦 <strong>【裝載與人員確認】：</strong>將戰利品穩妥放入預留的托運行李箱。🔴 15:40 離開 iias。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">15:45-16:05</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">⛽ <strong>【加油窗口】：</strong>導航鎖定<strong>「ENEOS加油站 豐崎店」</strong>。車 1 先進，車 2 跟上，各自快速依指定燃料加滿，不休息購物。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">16:05-16:15</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🚗 <strong>【前往OTS】：</strong>前往 OTS 臨空豐崎營業所。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-emerald-50/60">16:15-16:35</td>
-                                <td class="p-3 border-r border-gray-100 bg-emerald-50/60 leading-relaxed">
-                                    🟢 <strong>【還車／驗車／結算】：</strong>16:20 前兩車入場進入驗車，結帳 ETC 卡。<br>
-                                    <strong class="text-red-700 mt-1.5 block">🔴 16:35 停損：若仍未完成還車 → 停止所有非必要整理，優先確保全員及行李進入接駁流程。</strong>
-                                </td>
-                                <td class="p-3 bg-emerald-50/60 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">16:35-16:50</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🚌 <strong>【預估接駁窗口】：</strong>依現場班次搭乘接駁車。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">16:50-17:15</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🚌 <strong>【前往機場】：</strong>前往那霸機場。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">17:15 前後</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🧳 <strong>【抵達機場】：</strong>約 17:00～17:20 抵達機場建立基地營。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">18:25</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🛫 <strong>【開櫃】：</strong>華航 CI123 開櫃，完成託運。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">19:40-20:05</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🛂 <strong>【安檢／出境窗口】：</strong>全員完成安檢與出境手續。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">20:15</td>
-                                <td class="p-3 border-r border-gray-100 leading-relaxed">🛍️ <strong>【最晚全員Gate集合】：</strong>Gate 集合。</td>
-                                <td class="p-3 bg-amber-50/20 leading-relaxed">同左。</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3 font-mono font-bold border-r border-gray-100 bg-gray-50/50">20:55</td>
-                                <td class="p-3 border-r border-gray-100 text-indigo-900 font-bold leading-relaxed">🛫 <strong>【起飛】：</strong>CI123 滿載回憶返台！</td>
-                                <td class="p-3 bg-amber-50/20 text-indigo-900 font-bold leading-relaxed">同左。</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-
         <!-- Day 4 移動時間軸 (Mobile Timeline) -->
         <div class="mobile-timeline">
-            <!-- 06:45-07:45 早晨整備與早鳥發車 -->
+            <!-- 06:45-07:30 早餐與整理 -->
             <div class="relative mb-10 pl-6">
                 <div class="timeline-node bg-indigo-500"></div>
                 <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
+                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="pr-8">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>06:45 - 07:30
+                                </span>
+                            </div>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🍳 【早餐與整理】</h4>
+                        </div>
+                        
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="pt-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">配合早起節奏，享用飯店早餐並完成最後行李確認。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 07:30-07:45 裝車與退房 -->
+            <div class="relative mb-10 pl-6">
+                <div class="timeline-node bg-indigo-500"></div>
+                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
+                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="pr-8">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>07:30 - 07:45
+                                </span>
+                            </div>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">📦 【裝車與退房】</h4>
+                        </div>
+                        
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="pt-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">兩台車開始裝行李。落實「集中體積，不集中超重」原則。完成巡房與退房。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 07:45 離開名護 -->
+            <div class="relative mb-10 pl-6">
+                <div class="timeline-node bg-red-500"></div>
+                <div class="glass-card rounded-2xl overflow-hidden border-l-4 border-l-red-500">
                     <div class="h-28 sm:h-36 bg-gray-200 relative img-gradient">
-                        <img src="https://lh3.googleusercontent.com/d/1nBXybga9EiYG9kOQjW_YK_dMGFCG7EjS" class="w-full h-full object-cover" alt="退房南下" onerror="this.src='https://placehold.co/800x400/4338ca/ffffff?text=早晨退房與南下'">
+                        <img src="https://lh3.googleusercontent.com/d/1nBXybga9EiYG9kOQjW_YK_dMGFCG7EjS" class="w-full h-full object-cover" alt="南下豐崎" onerror="this.src='https://placehold.co/800x400/4338ca/ffffff?text=走高速公路南下豐崎'">
                     </div>
                     <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
                         <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
@@ -1985,36 +1783,60 @@
                         <div class="pr-8">
                             <div class="flex flex-wrap items-center gap-2 mb-2">
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>06:45 - 07:45
-                                </span>
-                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-red-100 text-red-700 border border-red-200">
-                                    <i class="fa-solid fa-triangle-exclamation"></i> 07:45 離開名護
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>07:45
                                 </span>
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🏨 早晨整備與早鳥南下</h4>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🚗 🔴 【離開名護】</h4>
                         </div>
                         
                         <div class="accordion-content">
                             <div class="accordion-inner">
-                                <div class="pt-3 pb-2">
-                                    <ul class="text-sm text-gray-600 space-y-3 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-mug-saucer text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>06:45–07:30 【早餐與整理】：</strong>配合早起節奏，享用飯店早餐並完成最後行李確認。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-box text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>07:30–07:45 📦 【裝車與退房】：</strong>兩台車開始裝行李。落實「集中體積，不集中超重」原則。完成巡房與退房。</li>
-                                        <li class="flex items-start bg-red-50 p-2.5 rounded-lg border border-red-100"><i class="fa-solid fa-car text-red-600 mt-0.5 mr-2 shrink-0"></i><strong class="text-red-700">07:45 🚗 【離開名護】：🔴 兩車正式發車南下。徹底避開週一早晨的市區與南下車潮。</strong></li>
-                                    </ul>
+                                <div class="pt-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">🔴 兩車正式發車南下。徹底避開週一早晨的市區與南下車潮。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 09:00-09:05 車上操作 DMM -->
+            <div class="relative mb-10 pl-6">
+                <div class="timeline-node bg-green-500"></div>
+                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
+                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="pr-8">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>09:00 - 09:05
+                                </span>
+                                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-green-100 text-green-700 border border-green-200">
+                                    <i class="fa-solid fa-mobile-screen"></i> 限時操作
+                                </span>
+                            </div>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🟢 【車上操作 DMM】</h4>
+                        </div>
+                        
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="pt-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">由副駕或後座乘客於行車途中使用 4G/5G 操作。09:05 為唯一停止點，完全不影響駕駛行車。</p>
                                 </div>
                             </div>
                         </div>
                         <div class="mt-4">
-                            <a href="https://www.google.com/maps/search/?api=1&query=iias沖繩豐崎" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="flex items-center justify-center w-full min-h-[48px] bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition-all text-sm shadow-md active:scale-[0.98] gap-2">
-                                <i class="fa-solid fa-location-arrow text-lg"></i> 南下 iias 導航
+                            <a href="https://dmmkariyushiaquarium.oneqr.io/shops/shp_eec568e5db3cce204f802a9" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="flex items-center justify-center w-full min-h-[48px] bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition-all text-sm shadow-md active:scale-[0.98] gap-2">
+                                <i class="fa-solid fa-ticket text-lg"></i> 開啟 DMM 官方線上購票系統
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- 09:00-09:30 車上操作DMM & 抵達 iias -->
+            <!-- 09:20-09:30 抵達 iias 豐崎 -->
             <div class="relative mb-10 pl-6">
                 <div class="timeline-node bg-indigo-500"></div>
                 <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
@@ -2025,33 +1847,30 @@
                         <div class="pr-8">
                             <div class="flex flex-wrap items-center gap-2 mb-2">
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>09:00 - 09:30
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>09:20 - 09:30
                                 </span>
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">📱 搶票 ＆ 🅿️ 抵達 iias</h4>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🅿️ 【抵達 iias 豐崎】</h4>
                         </div>
                         
                         <div class="accordion-content">
                             <div class="accordion-inner">
-                                <div class="pt-2 pb-2">
-                                    <ul class="text-sm text-gray-600 space-y-3 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-mobile-screen text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>09:00–09:05 🟢 【車上操作 DMM】：</strong>由副駕或後座乘客於行車途中使用 4G/5G 操作。09:05 為唯一停止點，完全不影響駕駛行車。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-parking text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>09:20–09:30 🅿️ 【抵達 iias 豐崎】：</strong>順利抵達商場。此時商場尚未營業，停車場空曠，兩車可輕鬆停放同區。</li>
-                                    </ul>
+                                <div class="pt-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">順利抵達商場。此時商場尚未營業，停車場空曠，兩車可輕鬆停放同區。</p>
                                 </div>
                             </div>
                         </div>
                         
                         <div class="mt-4">
                             <a href="https://www.google.com/maps/search/?api=1&query=iias沖繩豐崎" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="flex items-center justify-center w-full min-h-[48px] bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition-all text-sm shadow-md active:scale-[0.98] gap-2">
-                                <i class="fa-solid fa-map-location-dot text-lg"></i> iias 沖繩豐崎導航
+                                <i class="fa-solid fa-location-arrow text-lg"></i> iias 沖繩豐崎導航
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- 09:30-12:00 DMM 水族館包場 & 提早午餐 -->
+            <!-- 09:30-11:00 DMM 水族館包場 -->
             <div class="relative mb-10 pl-6">
                 <div class="timeline-node bg-indigo-500"></div>
                 <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
@@ -2065,19 +1884,16 @@
                         <div class="pr-8">
                             <div class="flex flex-wrap items-center gap-2 mb-2">
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>09:30 - 12:00
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>09:30 - 11:00
                                 </span>
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🐟 DMM 水族館包場 ＆ 提早午餐</h4>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🐟 【DMM 水族館包場】</h4>
                         </div>
                         
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-2 pb-2">
-                                    <ul class="text-sm text-gray-600 space-y-3 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-fish text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>09:30–11:00 🐟 【DMM 水族館包場】：</strong>商場未開，直接進 DMM 水族館！ 享受無人潮的高品質觀賞體驗。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-utensils text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>11:00–12:00 🍱 【避開尖峰午餐】：</strong>10:00 商場開門後，11:00 直接前往美食街。此時餐廳剛準備好，9 人免排隊輕鬆入座。</li>
-                                    </ul>
+                                    <p class="text-sm text-gray-600 leading-relaxed">商場未開，直接進 DMM 水族館！ 享受無人潮的高品質觀賞體驗。</p>
                                 </div>
                             </div>
                         </div>
@@ -2091,7 +1907,7 @@
                 </div>
             </div>
 
-            <!-- 12:00-14:45 極致採買與企鵝體驗 -->
+            <!-- 11:00-12:00 避開尖峰午餐 -->
             <div class="relative mb-10 pl-6">
                 <div class="timeline-node bg-indigo-500"></div>
                 <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
@@ -2102,19 +1918,16 @@
                         <div class="pr-8">
                             <div class="flex flex-wrap items-center gap-2 mb-2">
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>12:00 - 14:45
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>11:00 - 12:00
                                 </span>
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🛍️ 極致充裕的採買 ＆ 企鵝體驗</h4>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🍱 【避開尖峰午餐】</h4>
                         </div>
                         
                         <div class="accordion-content">
                             <div class="accordion-inner">
-                                <div class="pt-3 pb-1">
-                                    <ul class="text-sm text-gray-600 space-y-3.5 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-cart-shopping text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>12:00–14:30 🛍️ 【極致充裕的採買】：</strong>擁有高達 2.5 小時的採買時間！可在 Foodway 超市與各專門店從容掃貨。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-penguin text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>14:30–14:45 🐧 【企鵝體驗】：</strong>若有搶到票 (A案)，2 名小孩與陪同大人參加 14:30 場次。（若無則繼續採買或休息）。</li>
-                                    </ul>
+                                <div class="pt-2 pb-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">10:00 商場開門後，11:00 直接前往美食街。此時餐廳剛準備好，9 人免排隊輕鬆入座。</p>
                                 </div>
                             </div>
                         </div>
@@ -2122,7 +1935,91 @@
                 </div>
             </div>
 
-            <!-- 14:45-15:40 分鐘級收尾與撤退 -->
+            <!-- 12:00-14:30 極致充裕的採買 -->
+            <div class="relative mb-10 pl-6">
+                <div class="timeline-node bg-indigo-500"></div>
+                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
+                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="pr-8">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>12:00 - 14:30
+                                </span>
+                            </div>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🛍️ 【極致充裕的採買】</h4>
+                        </div>
+                        
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="pt-2 pb-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">擁有高達 2.5 小時的採買時間！可在 Foodway 超市與各專門店從容掃貨。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 14:30-14:45 企鵝體驗 -->
+            <div class="relative mb-10 pl-6">
+                <div class="timeline-node bg-blue-500"></div>
+                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
+                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="pr-8">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>14:30 - 14:45
+                                </span>
+                            </div>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🐧 【企鵝體驗】</h4>
+                        </div>
+                        
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="pt-2 pb-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">若有搶到票 (A案)，2 名小孩與陪同大人參加 14:30 場次。（若無則繼續採買或休息）。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 14:45-15:10 最後挑選 -->
+            <div class="relative mb-10 pl-6">
+                <div class="timeline-node bg-indigo-500"></div>
+                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
+                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="pr-8">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>14:45 - 15:10
+                                </span>
+                            </div>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🛍️ 【最後挑選】</h4>
+                        </div>
+                        
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="pt-2 pb-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">停止挑選新商品。<strong class="text-red-600">🧳 15:10 後不得購買體積不可控的大件商品（須確認車內剩餘空間）。</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 15:20-15:30 結帳紅線 -->
             <div class="relative mb-10 pl-6">
                 <div class="timeline-node bg-red-500"></div>
                 <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
@@ -2133,23 +2030,21 @@
                         <div class="pr-8">
                             <div class="flex flex-wrap items-center gap-2 mb-2">
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>14:45 - 15:40
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>15:20 - 15:30
                                 </span>
                                 <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-red-100 text-red-700 border border-red-200">
                                     <i class="fa-solid fa-stopwatch"></i> 分鐘級收尾指令
                                 </span>
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🔴 結帳紅線與撤退紀律</h4>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🔴 【結帳紅線】</h4>
                         </div>
                         
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-3 pb-1">
                                     <ul class="text-sm text-gray-600 space-y-3.5 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-bag-shopping text-gray-400 mt-1 mr-2 shrink-0"></i><strong>14:45–15:10 🛍️ 【最後挑選】：</strong>停止挑選新商品。<strong class="text-red-600 font-bold block mt-1">🧳 15:10 後不得購買體積不可控的大件商品（須確認車內剩餘空間）。</strong></li>
-                                        <li class="flex items-start bg-red-50 p-2.5 rounded-lg border border-red-100"><i class="fa-solid fa-cash-register text-red-600 mt-0.5 mr-2 shrink-0"></i><strong class="text-red-700">🔴 15:20–15:30 【結帳紅線】：15:20 靠攏結帳區，15:25 開始結帳，🔴 15:30 全部完成付款。禁止新增商品。</strong></li>
-                                        <li class="flex items-start"><i class="fa-solid fa-box text-indigo-600 mt-1 mr-2 shrink-0"></i><strong>15:30–15:40 📦 【裝載與人員確認】：</strong>將戰利品穩妥放入預留的托運行李箱。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-car-side text-red-600 mt-1 mr-2 shrink-0"></i><strong class="text-red-600">🔴 15:40 🚗 【離開 iias】：最晚駛離 iias。</strong></li>
+                                        <li class="flex items-start"><i class="fa-solid fa-person-walking text-gray-400 mt-1 mr-2 shrink-0"></i>15:20 靠攏結帳區。</li>
+                                        <li class="flex items-start bg-red-50 p-2.5 rounded-lg border border-red-100"><i class="fa-solid fa-cash-register text-red-600 mt-0.5 mr-2 shrink-0"></i><strong class="text-red-700">15:25 開始結帳，🔴 15:30 全部完成付款。禁止新增商品。</strong></li>
                                     </ul>
                                 </div>
                             </div>
@@ -2158,7 +2053,7 @@
                 </div>
             </div>
 
-            <!-- 15:45-16:15 加油與前往 OTS -->
+            <!-- 15:30-15:40 裝載與人員確認 -->
             <div class="relative mb-10 pl-6">
                 <div class="timeline-node bg-indigo-500"></div>
                 <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
@@ -2169,27 +2064,86 @@
                         <div class="pr-8">
                             <div class="flex flex-wrap items-center gap-2 mb-2">
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>15:45 - 16:15
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>15:30 - 15:40
                                 </span>
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">⛽ 獨立加油 ＆ 前往 OTS</h4>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">📦 【裝載與離開 iias】</h4>
+                        </div>
+                        
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="pt-3 pb-1">
+                                    <ul class="text-sm text-gray-600 space-y-3.5 leading-relaxed">
+                                        <li class="flex items-start"><i class="fa-solid fa-box text-indigo-600 mt-1 mr-2 shrink-0"></i>將戰利品穩妥放入預留的托運行李箱。確認人員、護照，上車。</li>
+                                        <li class="flex items-start bg-red-50 p-2.5 rounded-lg border border-red-100"><i class="fa-solid fa-car-side text-red-600 mt-0.5 mr-2 shrink-0"></i><strong class="text-red-700">🔴 15:40 離開 iias。</strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 15:45-16:05 加油 -->
+            <div class="relative mb-10 pl-6">
+                <div class="timeline-node bg-indigo-500"></div>
+                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
+                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="pr-8">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>15:45 - 16:05
+                                </span>
+                            </div>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">⛽ 【加油窗口】</h4>
                         </div>
                         
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-2 pb-2">
-                                    <ul class="text-sm text-gray-600 space-y-3 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-gas-pump text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>15:45–16:05 ⛽ 【加油窗口】：</strong>導航鎖定「ENEOS加油站 豐崎店」。車 1 先進，車 2 跟上，各自快速依指定燃料加滿，不休息購物。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-car text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>16:05–16:15 🚗 【前往OTS】：</strong>前往 OTS 臨空豐崎營業所。</li>
-                                    </ul>
+                                    <p class="text-sm text-gray-600 leading-relaxed">導航鎖定<strong>「ENEOS加油站 豐崎店」</strong>。車 1 先進，車 2 跟上，各自快速依指定燃料加滿，不休息購物。</p>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div class="mt-4">
                             <a href="https://www.google.com/maps/search/?api=1&query=ENEOS+豐崎加油站" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="flex items-center justify-center w-full min-h-[48px] bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition-all text-sm shadow-md active:scale-[0.98] gap-2">
                                 <i class="fa-solid fa-gas-pump text-lg"></i> 加油站導航
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 16:05-16:15 前往 OTS -->
+            <div class="relative mb-10 pl-6">
+                <div class="timeline-node bg-indigo-500"></div>
+                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
+                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="pr-8">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>16:05 - 16:15
+                                </span>
+                            </div>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🚗 【前往 OTS】</h4>
+                        </div>
+                        
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="pt-2 pb-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">前往 OTS 臨空豐崎營業所。</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
                             <a href="https://www.google.com/maps/search/?api=1&query=OTS租車+臨空豐崎營業所" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="flex items-center justify-center w-full min-h-[48px] bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-all text-sm shadow-md active:scale-[0.98] gap-2">
                                 <i class="fa-solid fa-car text-lg"></i> OTS 還車導航
                             </a>
@@ -2198,7 +2152,7 @@
                 </div>
             </div>
 
-            <!-- 16:15-17:15 OTS 還車與接駁 -->
+            <!-- 16:15-16:35 OTS 還車與結算 -->
             <div class="relative mb-10 pl-6">
                 <div class="timeline-node bg-emerald-500"></div>
                 <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
@@ -2212,24 +2166,78 @@
                         <div class="pr-8">
                             <div class="flex flex-wrap items-center gap-2 mb-2">
                                 <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
-                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>16:15 - 17:15
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>16:15 - 16:35
                                 </span>
                                 <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-bold bg-red-100 text-red-700 border border-red-200">
                                     <i class="fa-solid fa-stopwatch"></i> 16:35 還車停損
                                 </span>
                             </div>
-                            <h4 class="text-gray-900 font-black text-base leading-snug">🟢 OTS 還車 ＆ 接駁往機場</h4>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🟢 【還車／驗車／結算】</h4>
                         </div>
                         
                         <div class="accordion-content">
                             <div class="accordion-inner">
                                 <div class="pt-3 pb-2">
                                     <ul class="text-sm text-gray-600 space-y-3.5 leading-relaxed">
-                                        <li class="flex items-start"><i class="fa-solid fa-car text-emerald-500 mt-1 mr-2 shrink-0"></i><strong>16:15–16:35 🟢 【還車／驗車／結算】：</strong>16:20 前兩車入場進入驗車，結帳 ETC 卡。</li>
+                                        <li class="flex items-start"><i class="fa-solid fa-car text-emerald-500 mt-1 mr-2 shrink-0"></i>16:20 前兩車入場進入驗車，結帳 ETC 卡。</li>
                                         <li class="flex items-start bg-red-50 p-2.5 rounded-lg border border-red-100"><i class="fa-solid fa-triangle-exclamation text-red-600 mt-0.5 mr-2 shrink-0"></i><strong class="text-red-700">🔴 16:35 停損：若仍未完成還車 → 停止所有非必要整理，優先確保全員及行李進入接駁流程。</strong></li>
-                                        <li class="flex items-start"><i class="fa-solid fa-bus text-emerald-500 mt-1 mr-2 shrink-0"></i><strong>16:35–16:50 🚌 【預估接駁窗口】：</strong>依現場班次搭乘接駁車。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-plane text-emerald-500 mt-1 mr-2 shrink-0"></i><strong>16:50–17:15 🚌 【前往機場】：</strong>前往那霸機場。</li>
                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 16:35-16:50 預估接駁窗口 -->
+            <div class="relative mb-10 pl-6">
+                <div class="timeline-node bg-indigo-500"></div>
+                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
+                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="pr-8">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>16:35 - 16:50
+                                </span>
+                            </div>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🚌 【預估接駁窗口】</h4>
+                        </div>
+                        
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="pt-2 pb-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">依現場班次搭乘接駁車。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 16:50-17:15 前往機場 -->
+            <div class="relative mb-10 pl-6">
+                <div class="timeline-node bg-indigo-500"></div>
+                <div class="glass-card rounded-2xl overflow-hidden border border-gray-200">
+                    <div class="p-5 cursor-pointer relative transition-colors hover:bg-slate-50" onclick="toggleCard(this)">
+                        <div class="absolute right-5 top-5 text-gray-400 transition-transform duration-300 chevron-icon text-lg">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="pr-8">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="inline-flex items-center justify-center bg-slate-800 text-white px-2.5 py-1 rounded-lg text-xs font-black tracking-wide shadow-sm">
+                                    <i class="fa-regular fa-clock mr-1 opacity-80"></i>16:50 - 17:15
+                                </span>
+                            </div>
+                            <h4 class="text-gray-900 font-black text-base leading-snug">🚌 【前往機場】</h4>
+                        </div>
+                        
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="pt-2 pb-2">
+                                    <p class="text-sm text-gray-600 leading-relaxed">前往那霸機場。</p>
                                 </div>
                             </div>
                         </div>
@@ -2267,7 +2275,7 @@
                                         <li class="flex items-start"><i class="fa-solid fa-campground text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>17:15 前後 🧳 【抵達機場】：</strong>約 17:00～17:20 抵達機場建立基地營。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-plane-departure text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>18:25 🛫 【開櫃】：</strong>華航 CI123 開櫃，完成託運。</li>
                                         <li class="flex items-start"><i class="fa-solid fa-passport text-indigo-500 mt-1 mr-2 shrink-0"></i><strong>19:40–20:05 🛂 【安檢／出境窗口】：</strong>全員完成安檢與出境手續。</li>
-                                        <li class="flex items-start"><i class="fa-solid fa-users text-indigo-500 mt-1 mr-2 shrink-0"></i><strong class="text-gray-800">20:15 🛍️ 【最晚全員 Gate 集合】：</strong>Gate 集合。</li>
+                                        <li class="flex items-start"><i class="fa-solid fa-users text-indigo-500 mt-1 mr-2 shrink-0"></i><strong class="text-gray-800">20:15 🛍️ 【最晚全員Gate集合】：</strong>Gate 集合。</li>
                                         <li class="flex items-start bg-indigo-50 p-2.5 rounded-lg border border-indigo-100"><i class="fa-solid fa-plane-up text-indigo-600 mt-0.5 mr-2 shrink-0"></i><strong class="text-indigo-800">20:55 🛫 【起飛】：CI123 滿載回憶返台！</strong></li>
                                     </ul>
                                 </div>
@@ -2302,23 +2310,32 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 text-sm mb-4">
                             <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
                                 <div class="font-bold text-blue-700 mb-1">🧳 A 類：托運行李箱</div>
-                                琉球辣油、香檸原汁、化妝水等大於 100ml 液體（玻璃瓶加厚防撞）。
+                                琉球辣油、香檸原汁、化妝水等大於 100ml 液體（玻璃瓶加厚防撞）。液體類集中托運。
                             </div>
                             <div class="bg-amber-50 p-3 rounded-xl border border-amber-200">
                                 <div class="font-bold text-amber-700 mb-1">📦 B 類：紙箱/旅行袋</div>
-                                超市常溫伴手禮、餅乾零食，現場封箱託運。
+                                超市常溫伴手禮／零食，先裝入預留行李空間；回機場後視重量與數量完成最終托運分裝。
                             </div>
                             <div class="bg-emerald-50 p-3 rounded-xl border border-emerald-200">
                                 <div class="font-bold text-emerald-700 mb-1">🎒 C 類：隨身行李</div>
-                                護照正本（全員隨身自管）、<strong class="text-red-600">所有行動電源與相機鋰電池</strong>、常備藥。
+                                護照正本（成人自行隨身保管；兒童由家長／監護人隨身保管）、<strong class="text-red-600">所有行動電源與相機鋰電池</strong>、常備藥。
                             </div>
                             <div class="bg-indigo-50 p-3 rounded-xl border border-indigo-200">
                                 <div class="font-bold text-indigo-700 mb-1">🚗 D 類：車內清空檢查</div>
-                                保溫水壺、充電線、垃圾、<strong>滿油收據</strong>（保留備查），<strong>拔出 ETC 卡</strong>。
+                                保溫水壺、手機充電線、車用垃圾、<strong>該車滿油收據</strong>（保留備查），<strong>拔出 ETC 卡</strong>（交給 OTS 櫃檯結清過路費）。
                             </div>
                         </div>
 
-                        <div class="bg-red-50 p-3 rounded-xl border border-red-200 text-sm text-red-900 leading-relaxed">
+                        <div class="bg-gray-50 p-3.5 rounded-xl border border-gray-200 text-sm text-gray-700 leading-relaxed mb-4">
+                            <strong class="text-gray-900 block mb-1.5"><i class="fa-solid fa-lightbulb text-amber-500 mr-1.5"></i>【行李分裝新增規則：集中體積，不集中超重】</strong>
+                            <ul class="space-y-1.5 pl-5 list-disc">
+                                <li>退房前將液體類與不需要的衣物集中托運。常溫伴手禮放入預留空間。</li>
+                                <li>出發前確認各托運箱重量大致平均，不讓單一行李箱過重。</li>
+                                <li>保留一個空的軟式旅行袋作為機場臨時重新分裝備用。</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-red-50 p-3.5 rounded-xl border border-red-200 text-sm text-red-900 leading-relaxed">
                             <strong>⚠️ 肉製品檢疫鐵則：</strong><br>
                             日本購買之任何肉製品（肉乾、香腸、真空肉品、含肉點心或加工食品），全數於當地享用完畢，嚴禁攜帶回台，避免承擔檢疫裁罰風險。
                         </div>
@@ -2334,15 +2351,15 @@
 <div class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-gray-200 p-2.5 z-40 flex justify-around shadow-[0_-4px_20px_rgba(0,0,0,0.08)]">
     <button onclick="openModal('flightModal')" class="flex flex-col items-center text-cyan-700 w-1/4">
         <i class="fa-solid fa-plane text-[22px] mb-1"></i>
-        <span class="text-[11px] font-bold">航班資訊</span>
+        <span class="text-[11px] font-bold mt-0.5">航班資訊</span>
     </button>
     <button onclick="openModal('hotelModal')" class="flex flex-col items-center text-blue-700 w-1/4 border-l border-gray-200">
         <i class="fa-solid fa-hotel text-[22px] mb-1"></i>
-        <span class="text-[11px] font-bold">住宿機能</span>
+        <span class="text-[11px] font-bold mt-0.5">住宿機能</span>
     </button>
     <button onclick="openModal('carModal')" class="flex flex-col items-center text-teal-700 w-1/4 border-l border-gray-200">
         <i class="fa-solid fa-car text-[22px] mb-1"></i>
-        <span class="text-[11px] font-bold">車隊規則</span>
+        <span class="text-[11px] font-bold mt-0.5">車隊規則</span>
     </button>
     <button onclick="openModal('ruleModal')" class="flex flex-col items-center text-red-600 w-1/4 border-l border-gray-200">
         <div class="relative">
@@ -2521,7 +2538,7 @@
             <li>• <strong>🚗 獨立導航與車隊原則：</strong>核心行程精準守時；彈性行程依老小體力隨時捨棄。2 車各自獨立導航，絕不在路上追車、不危險路邊等車。</li>
             <li class="bg-purple-50 p-3 rounded-lg border border-purple-200">
                 <strong class="text-purple-800 block mb-1">🛣️ 高速公路收費車道判斷（極重要）：</strong>
-                <span class="text-purple-700 font-bold">【有 ETC】</span>（本次雙車皆有）：雙車全程行駛高速公路時，一律直行<span class="text-purple-600 font-bold">紫色</span>的「ETC 專用道」，進出閘門減速至 20 km/h 以下感應通過。<br>
+                <span class="text-purple-700 font-bold">【有 ETC】</span>（本次雙車皆有且已插入車機時）：雙車全程行駛高速公路時，一律依現場「ETC専用」或「ETC／一般」標示選擇對應的<span class="text-purple-600 font-bold">紫色</span>車道，進出閘門減速至 20 km/h 以下感應通過。<br>
                 <span class="text-green-700 font-bold mt-1 block">【無 ETC】</span>：絕對必須走<span class="text-green-600 font-bold">綠色</span>的「一般」車道，上高速需抽票卡，下高速需走人工走道付現或刷卡。
             </li>
         </ul>
@@ -2532,7 +2549,7 @@
 <div id="ruleModal" class="modal">
     <div class="modal-content">
         <div class="flex justify-between items-center mb-4 border-b pb-2">
-            <h3 class="text-lg font-black text-red-700"><i class="fa-solid fa-stopwatch mr-2"></i>家族自駕「精簡 3 級應變機制」與核心時間紅線</h3>
+            <h3 class="text-lg font-black text-red-700"><i class="fa-solid fa-stopwatch mr-2"></i>家族自駕「精簡 3 級應變機制」與時間紅線</h3>
             <button onclick="closeModal('ruleModal')" class="text-gray-400 hover:text-gray-600 text-lg"><i class="fa-solid fa-xmark"></i></button>
         </div>
 
